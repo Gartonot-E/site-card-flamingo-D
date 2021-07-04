@@ -1,0 +1,22 @@
+.advantage {
+    margin-top: 80px;
+    background: url(../../images/Advantage-img.png) no-repeat top center / contain;
+}
+
+.advantage-h {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    color: #5A5A5A;
+}
+
+.advantage-p {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.advantage-p p {
+    margin-top: 40px;
+}

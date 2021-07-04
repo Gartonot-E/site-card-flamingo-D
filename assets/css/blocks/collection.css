@@ -1,0 +1,16 @@
+.collection__info { margin-top: 40px; }
+
+.collection__text h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.collection__text p {
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 30px;
+}

@@ -1,0 +1,36 @@
+.about-us { margin-top: 100px; }
+
+.pages-logo { display: flex; }
+.pages-logo h1 {
+    margin-top: 10px;
+    margin-left: -45px;
+    font-size: 48px;
+    font-family: 'Russo One';
+}
+
+.about-us__info {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__text { 
+    padding-right: 100px; 
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.about-us__text p {
+    margin-top: 50px;
+}
+
+@media (max-width: 1700px) {
+    .about-us__info { flex-direction: column; }
+    .about-us__text { padding: 0; margin-bottom: 75px; }
+}
+
+@media (max-width: 500px) {
+    .about-us__text { font-size: 22px; }
+    .about-us__text p { margin-top: 25px; }
+}
+

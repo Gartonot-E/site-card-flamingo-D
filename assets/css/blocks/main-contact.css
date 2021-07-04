@@ -1,0 +1,98 @@
+.main-contact { font-family: 'Montserrat'; margin-top: 80px; display: flex; gap: 50px; }
+.main-contact__maps p { font-family: 'Russo One'; font-size: 32px; }
+.main-contact__maps iframe { margin-top: 40px; border-radius: 8px; }
+.main-contact__info p { font-family: 'Russo One'; font-size: 32px; }
+
+.newsletter { 
+    display: flex; 
+    padding: 30px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter_block {
+    display: inline-block;
+    background: #22B591;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.newsletter_block p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding: 55px 15px;
+}
+
+.newsletter-list {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter-list ul { margin-left: 20px; flex-wrap: wrap; }
+.newsletter-list li { align-items: center; margin: 10px; }
+.newsletter-list li span { margin-left: 10px; }
+
+
+.main-contact__form { margin-top: 25px; }
+
+.email-form {
+    font-size: 18px;
+    font-weight: 600;
+    width: 570px;
+    height: 60px;
+    padding-left: 20px;
+    border: 1px solid #0D76BD;
+    border-radius: 5px;
+    outline: 0;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button-form {
+    margin-top: 25px;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 600;
+    background: #0D76BD;
+    padding: 14px 50px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-contact__form p {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.main-contact__maps iframe {
+    width: 100%;
+}
+
+.main-contact__maps, 
+.main-contact__info {
+    width: 100%;
+}
+
+@media (max-width: 1700px) {
+    .main-contact { flex-direction: column; }
+    .main-contact__maps { margin-bottom: 50px; }
+}
+
+@media (max-width: 1000px) {
+    .maps > iframe { height: 300px; }
+    .contact-info .ct-info__block { flex-direction: column; }
+}
+
+@media (max-width: 400px) {
+    .ct-info__phone a { font-size: 20px !important; }
+    .ct-info__info { font-size: 18px !important; }
+}

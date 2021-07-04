@@ -1,0 +1,89 @@
+.offer-bg { background: url('../../images/Fon.png') no-repeat center center / cover fixed; }
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer-info {
+    margin-top: 180px;
+    color: #fff;
+}
+
+.offer-info h1 {
+    font-family: 'Russo One';
+    font-size: 96px;
+    font-weight: 500;
+}
+
+.offer-info p {
+    margin-top: 30px;
+    width: 600px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.offer-info .offer-button {
+    margin-top: 60px;
+    margin-bottom: 238px;
+}
+
+.offer-info .offer-button a {
+    background: #fff;
+    color: #22B591;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-size: 28px;
+    font-family: 'Montserrat';
+}
+
+
+@media (max-width: 1450px) {
+    .offer-info h1 { font-size: 75px; }
+    .offer-info p { font-size: 22px; }
+    .offer-img img { width: 90%; }
+    .offer-bg .container { width: 90%; }
+
+}
+
+@media (max-width: 1200px) {
+    .offer-info h1 { font-size: 55px; }
+    .offer-info p { font-size: 18px; width: 350px; }
+    .offer-img img { width: 80%; }
+    .offer-info .offer-button a { font-size: 20px; }
+}
+
+@media (max-width: 1000px) {
+    .offer { justify-content: center; }
+    .offer-info h1 { font-size: 80px; }
+    .offer-info p { font-size: 24px; width: 600px; }
+    .offer-img { display: none; }
+    .offer-info .offer-button a { font-size: 26px; }
+}
+
+@media (max-width: 750px) {
+    .offer-info h1 { font-size: 70px; }
+    .offer-info p { font-size: 22px; width: 500px; }
+    .offer-info .offer-button a { font-size: 24px; }
+    .offer-info .offer-button { margin-bottom: 140px; }
+}
+
+@media (max-width: 600px) {
+    .offer-info h1 { font-size: 50px; text-align: center; }
+    .offer-info p { font-size: 18px; width: 400px; text-align: center; }
+    .offer-info .offer-button { text-align: center; }
+    .offer-info .offer-button a { font-size: 20px; }
+}
+
+@media (max-width: 480px) {
+    .offer-info h1 { font-size: 45px; }
+    .offer-info p { font-size: 18px; width: 350px; }
+    .offer-info .offer-button a { font-size: 24px; }
+}
+
+@media (max-width: 360px) {
+    .offer-info h1 { font-size: 36px; }
+    .offer-info p { font-size: 18px; width: 300px; }
+    .offer-info .offer-button a { font-size: 20px; }
+}

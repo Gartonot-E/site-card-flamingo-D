@@ -1,0 +1,38 @@
+.maps { margin-top: 40px; }
+
+.ct-info__logo { 
+    margin-top: 30px; 
+    font-size: 36px; 
+    font-family: 'Montserrat'; 
+    font-weight: 500; 
+}
+
+.ct-info__block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: #CAECF2;
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+
+.ct-info__info { 
+    font-size: 24px; 
+    font-family: 'Montserrat'; 
+}
+
+.ct-info__time { 
+    display: flex; 
+    margin-top: 20px;
+}
+.ct-info__time p {
+    margin-left: 10px;
+    font-family: 'Montserrat';
+}
+
+.ct-info__phone a {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: #000;
+}
+

@@ -1,0 +1,75 @@
+.products {
+    display: flex;
+    margin-top: 40px;
+    gap: 155px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products__block { position: relative; cursor: pointer; }
+.products__block img { 
+    border-radius: 4px; 
+    width: 100%;
+}
+
+.new-products, .percent-products, .price-products, .price-products span, .name-products {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+
+.new-products {
+    position: absolute;
+    background: #959595;
+    border-radius: 4px 0 0 0;
+    padding: 6px 8px;
+    color: #fff;
+}
+
+.percent-products {
+    top: 75%;
+    position: absolute;
+    background: #fff;
+    padding: 6px 10px;
+    color: #000;
+}
+
+.price-products { display: flex; margin-top: 5px; }
+.price-products span {
+    margin-left: 20px;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+}
+.name-products { margin-top: 5px; }
+.name-products a { font-weight: 500; color: #000; }
+.name-products a:hover { opacity: .5; }
+
+.instagram-images {
+    margin-top: 80px;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.in-images__block {
+    display: flex;
+    margin-top: 60px;
+    gap: 76px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.in-images__img a {
+    max-height: 340px;
+    max-width: 340px;
+    overflow: hidden;
+    display: block;
+}
+
+.in-images__img img { 
+    max-width: 100%; 
+    height: auto; 
+}

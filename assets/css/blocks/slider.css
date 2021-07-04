@@ -1,0 +1,71 @@
+.slider { margin-top: 80px; }
+.slider p {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    color: #6D6D6D;
+    text-align: center;
+}
+
+.slider__card {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.slider__card-block {
+    margin: 25px;
+    width: calc(100%/4);
+}
+
+.slider__card-block img {
+    width: 100%;
+}
+
+.slider__card-block p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #000;
+    margin: 0 auto;
+}
+
+.slider__text { margin-top: 50px; }
+.slider__text p:first-child {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+
+.slider__text p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.slider-button { margin-top: 30px; }
+.slider-button a {
+    display: inline-block;
+    background: #22B591;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-weight: 800;
+}
+
+.slider__card-block img {
+    width: 100%;
+}
+
+
+@media (max-width: 767px) {
+    .slider__card-block { width: calc(100%/3); }
+}
+
+@media (max-width: 600px) {
+    .slider__card-block { width: 100%; }
+}

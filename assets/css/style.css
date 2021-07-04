@@ -1,0 +1,41 @@
+/* Основа */
+@import url('blocks/base.css');
+
+/* Шрифты */
+@import url('blocks/fonts.css');
+
+/* Шапка Сайта */
+@import url('blocks/header.css');
+
+/* Подключение гамбургера */
+@import url('blocks/gamburger.css');
+
+/* Предложение */
+@import url('blocks/offer.css');
+
+/* Слайдер */
+@import url('blocks/slider.css');
+
+/* Преимущество */
+@import url('blocks/advantage.css');
+
+/* Контакты на главном */
+@import url('blocks/main-contact.css');
+
+/* О нас */
+@import url('blocks/aboutus.css');
+
+/* О Компании */
+@import url('blocks/company.css');
+
+/* Контакт */
+@import url('blocks/contacts.css');
+
+/* Услуги */
+@import url('blocks/services.css');
+
+/* Коллекция женской одежды */
+@import url('blocks/collection.css');
+
+/* Подвал */
+@import url('blocks/footer.css');

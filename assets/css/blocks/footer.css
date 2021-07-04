@@ -1,0 +1,61 @@
+footer { margin-top: 80px; background: #333333; }
+
+.ft-top { 
+    display: flex; 
+    padding: 50px 0;
+    border-bottom: 5px solid #4D4D4D;
+    justify-content: space-between;
+}
+
+.ft-socialnetwork a:hover { opacity: .5; }
+.ft-socialnetwork p { text-align: right; }
+.ft-company p, .ft-info p, .ft-socialnetwork p {
+    font-size: 24px;
+    font-family: 'Russo One';
+    color: #fff;
+}
+
+.ft-company a:hover, .ft-info a:hover { text-decoration: underline; opacity: .5; }
+.ft-company a, .ft-info a {
+    font-size: 18px;
+    font-family: 'Russo One';
+    color: #fff;
+}
+
+.ft-company ul, .ft-info ul { display: inline-block; }
+.ft-company li, .ft-info li { margin-top: 20px; }
+.ft-socialnetwork li { margin-top: 20px; }
+.ft-down  { padding: 50px 0; display: flex; }
+
+.ft-down p {
+    font-size: 18px;
+    font-family: 'Russo One';
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.ft-down a {
+    margin-left: auto;
+    font-size: 18px;
+    font-family: 'Russo One';
+    color: rgba(255, 255, 255, 0.6);
+}
+.ft-down a:hover { opacity: .5; }
+
+@media (max-width: 968px) {
+    .ft-down a {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .ft-socialnetwork {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .ft-top {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
